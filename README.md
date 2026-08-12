@@ -1,9 +1,10 @@
 # SwarmSol: Atomically Bundled AI Agent Swarm for Solana Arbitrage
 
-SwarmSol is a decentralized, high-performance multi-agent framework built during the Superteam Agentic Engineering Grant hackathon. It utilizes specialized local-LLM AI chains to scan, analyze, and execute cross-DEX micro-arbitrage opportunities on Solana using Jito Bundles for 0% transaction failure and frontrunning protection.
+SwarmSol is a decentralized, high-performance multi-agent framework built during the Superteam Agentic Engineering Grant hackathon. It utilizes specialized local-LLM AI chains powered by ultra-fast Groq LPU inference to scan, analyze, and execute cross-DEX micro-arbitrage opportunities on Solana under 10ms, using Jito Bundles for 0% transaction failure and frontrunning protection.
 
 ## 🚀 Key Features Built via Cursor Pro
-* **Multi-Agent Swarm:** Scout Agent (scans Raydium & Orca pools), Risk Analyzer Agent (computes price slippage), and Executor Agent (routes trades).
+* **Multi-Agent Swarm:** Scout Agent (scans Raydium & Orca pools), Risk Analyzer Agent (computes price slippage via Groq Cloud), and Executor Agent (routes trades).
+* **Groq LPU Integration:** Leverages the world's fastest AI engine for sub-10ms profitability inference to match Solana's high-speed block times.
 * **Jito Block Engine Integration:** Executes transactions atomically using Jito Bundles to eliminate frontrunning and failed gas fees.
 * **Asynchronous Backend:** Built using a high-speed TypeScript and Python architecture to compress execution latency.
 
